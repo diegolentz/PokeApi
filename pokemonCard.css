@@ -65,11 +65,11 @@ body {
 .pokemon .name {
     background-color: rgba(255,255,255,0.6);
     border-radius: 30%;
-	margin: 15PX;
+	margin: 10PX;
 	text-align:  center;
 	padding: 2px;
 	border: 2px solid black;
-	width: 170px;
+	width: 180px;
 	height: 40px;
 }
 .pokemon .type {
