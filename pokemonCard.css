@@ -16,6 +16,13 @@ body {
 	text-align: center;
 	padding-top: 40px;
 }
+
+div .info {
+height: 110px;
+margin: 10px;
+
+}
+
 .poke-container {
 	padding: 70px ;
 	display: flex;
@@ -30,7 +37,7 @@ body {
 	border-radius: 40px;
 	margin: 15px;
 	padding: 5px;
-	height: auto;
+	height: 230px;
 	width: 200px;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px  black;
@@ -57,7 +64,7 @@ body {
 	background-color: rgba(255,255,255,0.6);
 	border-radius: 10px;
 	font-size: 0.8em;
-	padding: 5px;
+	padding: 1px;
 	border: 2px solid black;
 
 }
@@ -65,19 +72,20 @@ body {
 .pokemon .name {
     background-color: rgba(255,255,255,0.6);
     border-radius: 30%;
-	margin: 10PX;
+	margin: auto;
 	text-align:  center;
 	padding: 2px;
 	border: 2px solid black;
-	width: 180px;
+	width: 175px;
 	height: 40px;
+	font-size: 25px;
 }
 .pokemon .type {
 	background-color: rgba(255,255,255,0.6);
     border-radius: 30%;
 	border: 2px solid black;
 	margin-left: 80PX;
-	padding: 1px;
+	padding: 2px;
 	
 }
 /* 
