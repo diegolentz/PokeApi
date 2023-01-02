@@ -28,13 +28,11 @@ body {
 
 .pokemon {
 	border-radius: 40px;
-	margin: 25px;
-	padding: 7px;
+	margin: 15px;
+	padding: 5px;
 	height: auto;
 	width: 200px;
-	/* border: 2px double black; */
-	border-style: double;
-	border-color: black;
+	border: 2px solid black;
 	box-shadow: 5px 5px 5px  black;
 }
 
@@ -82,3 +80,33 @@ body {
 	padding: 1px;
 	
 }
+/* 
+/* @media screen and (max-width: 480px) {
+
+	.social-panel-container.visible {
+		transform: translateX(0px);
+	}
+	
+	.floating-btn {
+		right: 10px;
+	}
+}
+
+.principal
+{
+    display: flex ; 
+    justify-content: left;
+    align-items: center ;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: black!important;
+}
+
+.pokemon .type{
+	margin-top: auto;
+	
+	
+}
+.titulo{
+	color: aliceblue;
+} */ */
