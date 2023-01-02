@@ -44,27 +44,11 @@ function createPokemonCard(pokemon) {
     //https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png
 	const pokeInnerHTML = `
         <div class="img-container" >
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs="4000">
-				<div class="carousel-inner" >
-					<div class="carousel-item active" >
 						<img class="d-block w-100" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
 							pokemon.id
 							}.png" alt="${name}" />
-					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${
-											pokemon.id
-											}.png" alt="${name}" />
-					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${
-											pokemon.id
-											}.png" alt="${name}">
-					</div>
-				</div>	
-			</div>
-        </div>
-
+		</div>
+		
         <div class="info">
             <span class="number">#${pokemon.id
 								.toString()
